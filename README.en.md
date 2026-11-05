@@ -28,8 +28,6 @@ flowchart LR
 - `TimeTree-Agent.ps1` stores credentials locally using Windows DPAPI and starts the client.
 - `agent.mjs` calls the read tools, writes a report and optionally summarizes it using a local Ollama model.
 
-The TimeTree Web request format was researched using [ehs208/TimeTree-MCP](https://github.com/ehs208/TimeTree-MCP/tree/668cab9431c5de4403df493f40780966121f8b28). This project implements its own limited client and does not download or start the upstream server. The upstream MIT notice is included in LICENSE.
-
 ## Run on Windows
 
 Install Node.js 22 or newer with npm. Open PowerShell in this directory:

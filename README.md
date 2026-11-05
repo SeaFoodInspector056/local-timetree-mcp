@@ -73,4 +73,4 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\TimeTree-Agent.ps1 -Mo
 
 ## 授權
 
-採用 [MIT](LICENSE)。TimeTree Web 請求格式參考 [ehs208/TimeTree-MCP](https://github.com/ehs208/TimeTree-MCP/tree/668cab9431c5de4403df493f40780966121f8b28)。上游 MIT 聲明保留於 LICENSE。詳見 [第三方依賴說明](THIRD_PARTY_NOTICES.md)。
+採用 [MIT](LICENSE)。依賴套件的授權詳見 [第三方依賴說明](THIRD_PARTY_NOTICES.md)。
